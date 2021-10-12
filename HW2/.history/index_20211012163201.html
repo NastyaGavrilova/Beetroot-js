@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW 2</title>
+    <style type="text/css">
+      /*задаём общие параметры для всей страницы: шрифт и отступы*/
+      body {
+        text-align: center;
+        margin: 10;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 16px;
+      }
+
+      /* внешний вид кнопок */
+      button {
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 16px;
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .notOnScreen {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Home Work 2</h1>
+
+    <p id="startText">
+      Загадайте целое число от 0 до 100 и я угадаю его за 7 попыток или меньше!
+    </p>
+    <button onclick="start()" id="startButton">Начинаем!</button>
+
+    <p id="question"></p>
+    <br />
+    <button id="small" onclick="smallClick()" class="notOnScreen">
+      Меньше
+    </button>
+    <button id="bingo" onclick="bingoClick()" class="notOnScreen">
+      Угадал!
+    </button>
+    <button id="big" onclick="bigClick()" class="notOnScreen">Больше</button>
+
+    <!-- 9th task -->
+    <table>
+      <script language="JavaScript">
+        document.write("<tr><td> </td>");
+        for (i = 2; i <= 9; i++) document.write("<td>" + i + " </td>");
+        document.write("</tr>");
+        for (i = 1; i <= 10; i++) {
+          document.write("<tr><td>" + i + " </td>");
+          for (j = 2; j <= 9; j++) {
+            document.write("<td bgcolor='#00ffa0'>" + i * j + " </td>");
+          }
+          document.write("</tr>");
+        }
+      </script>
+    </table>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
