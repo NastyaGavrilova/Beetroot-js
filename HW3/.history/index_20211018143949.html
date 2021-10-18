@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Functions</title>
+  </head>
+  <body>
+    <section class="c-task-one">
+      <h4 class="c-task-one__title c-title">
+        Задание 1. Написать функцию, которая принимает 2 числа и возвращает -1,
+        если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0
+        – если числа равны.
+      </h4>
+      <form
+        action="#"
+        method="post"
+        class="c-task-one__form c-form"
+        id="js-task1-form"
+      >
+        <input
+          type="number"
+          id="js-task1-input1"
+          placeholder="Введите перовое число"
+        />
+        <input
+          type="number"
+          id="js-task1-input2"
+          placeholder="Введите второе число"
+        />
+        <button id="js-task1-btn">Сравнить</button>
+      </form>
+      <h5>Результат: <span id="js-task1-span"></span></h5>
+    </section>
+
+    <section class="c-task-two c-tasks">
+      <h4 class="c-task-two__title c-title">
+        Задание 2. Написать функцию, которая вычисляет факториал переданного ей
+        числа.
+      </h4>
+      <form
+        action="#"
+        method="post"
+        class="c-task-two__form c-form"
+        id="js-task2-form"
+      >
+        <input type="number" id="js-task2-input1" placeholder="Введите число" />
+        <button id="js-task2-btn">Найти факториал</button>
+      </form>
+      <h5>Результат: <span id="js-task2-span"></span></h5>
+    </section>
+
+    <section class="c-task-three c-tasks">
+      <h4 class="c-task-third__title c-title">
+        Задание 3. Написать функцию, которая принимает три отдельные цифры и
+        превращает их в одно число. Например: цифры 1, 4, 9 превратятся в число
+        149.
+      </h4>
+      <form
+        action="#"
+        method="post"
+        class="c-task-two__form"
+        id="js-task3-form c-form"
+      >
+        <input
+          type="number"
+          id="js-task3-input1"
+          placeholder="Введите перовое число"
+        />
+        <input
+          type="number"
+          id="js-task3-input2"
+          placeholder="Введите второе число"
+        />
+        <input
+          type="number"
+          id="js-task3-input3"
+          placeholder="Введите третье число"
+        />
+        <button id="js-task3-btn">Соеденить.</button>
+      </form>
+      <h5>Результат: <span id="js-task3-span"></span></h5>
+    </section>
+
+    <section class="c-task-four">
+      <h4 class="c-task-four__title c-title">
+        Задание 4. Написать функцию, которая принимает длину и ширину
+        прямоугольника и вычисляет его площадь. Если в функцию передали 1
+        параметр, то она вычисляет площадь квадрата.
+      </h4>
+      <form
+        action="#"
+        method="post"
+        class="c-task-four__form c-form"
+        id="js-task4-form"
+      >
+        <input
+          type="number"
+          id="js-task4-input1"
+          placeholder="Введите длину прямоугольника"
+        />
+        <input
+          type="number"
+          id="js-task4-input2"
+          placeholder="Введите ширину прямоугольника"
+        />
+        <button id="js-task4-btn">НАйти площадь.</button>
+      </form>
+      <h5>Результат: <span id="js-task4-span"></span></h5>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.c-task-one {
+  padding: 40px 30px;
+}
+.c-task-one__form {
+  display: flex;
+}
+.c-task-one__title {
+  margin-bottom: 10px;
+}

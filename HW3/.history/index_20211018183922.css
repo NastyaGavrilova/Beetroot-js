@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.c-task-one {
+  padding: 40px 30px 20px 30px;
+}
+
+.c-tasks {
+  padding: 0 30px 20px 30px;
+}
+.c-title {
+  margin-bottom: 10px;
+}
+.c-form {
+  margin-bottom: 10px;
+}
+/* #js-task10-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#js-task10-input4 {
+} */
