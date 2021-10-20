@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Scheherazade New", serif;
+}
+.c-header {
+  text-align: center;
+}
+
+.task {
+  padding: 0 50px 30px 50px;
+}
+.title {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+}
+button {
+  margin-bottom: 10px;
+}

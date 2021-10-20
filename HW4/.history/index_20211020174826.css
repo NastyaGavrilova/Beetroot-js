@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+.c-header {
+  text-align: center;
+}
+
+.task {
+  padding: 0 50px 30px 50px;
+}
+.title {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+button {
+  border: none;
+  background-color: rgb(19, 168, 148);
+  color: rgb(80, 80, 80);
+  margin-bottom: 10px;
+  font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.9);
+}
