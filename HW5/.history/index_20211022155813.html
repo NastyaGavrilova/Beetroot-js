@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+  </head>
+  <body>
+    <h1>Массивы</h1>
+    <section class="c-task1">
+      <div class="c-task1__wrapper">
+        <h3 class="title">
+          1. Создать массив «Список покупок». Каждый элемент массива является
+          объектом, который содержит название продукта, необходимое количество и
+          куплен или нет. Написать несколько функций для работы с таким
+          массивом.
+        </h3>
+        <p class="paragraph">
+          Вывод всего списка на экран таким образом, чтобы сначала шли
+          некупленные продукты, а потом – купленные.
+        </p>
+        <button id="js-task1-btn1">Вывести</button>
+        <p class="paragraph">Результат: <span id="js-task1-span1"></span></p>
+        <p class="paragraph">
+          Добавление покупки в список. Учтите, что при добавлении покупки с уже
+          существующим в списке продуктом, необходимо увеличивать количество в
+          существующей покупке, а не добавлять новую.
+        </p>
+        <form action="#" method="get">
+          <input
+            type="text"
+            id="js-task1-input1"
+            placeholder="Название продукта"
+          />
+          <input type="number" id="js-task1-input2" placeholder="Кол-во" />
+          <button id="js-task1-btn2">Вывести</button>
+        </form>
+        <p class="paragraph">Результат: <span id="js-task1-span2"></span></p>
+        <p class="paragraph">
+          Покупка продукта. Функция принимает название продукта и отмечает его
+          как купленный.
+        </p>
+        <form action="#" method="get">
+          <input
+            type="text"
+            id="js-task1-input4"
+            placeholder="Название продукта"
+          />
+          <button id="js-task1-btn3">Вывести</button>
+        </form>
+        <p class="paragraph">Результат: <span id="js-task1-span3"></span></p>
+      </div>
+    </section>
+    <section class="c-task2">
+      <div class="c-task2__wrapper">
+        <h3 class="title">
+          2. Создать массив, описывающий чек в магазине. Каждый элемент массива
+          состоит из названия товара, количества и цены за единицу товара.
+          Написать следующие функции:
+        </h3>
+        <p>Распечатка чека на экран</p>
+        <button id="js-task2-btn1">Вывести чек</button>
+        <p>
+          Результат: <br />
+          <span id="js-task2-span1"></span>
+        </p>
+
+        <p>Подсчет общей суммы покупки</p>
+        <button id="js-task2-btn2">Сумма покупки</button>
+        <p>
+          Результат: <br />
+          <span id="js-task2-span2"></span><br />
+        </p>
+        <p>Получение самой дорогой покупки в чеке:</p>
+        <button id="js-task2-btn3">Дорогая покупка</button>
+        <p>
+          Результат: <br />
+          <span id="js-task2-span3"></span><br />
+        </p>
+        <p>Подсчет средней стоимости одного товара в чеке:</p>
+        <button id="js-task2-btn4">Сред стоимость.</button>
+        <p>
+          Результат: <br />
+          <span id="js-task2-span4"></span><br />
+        </p>
+      </div>
+    </section>
+    <section class="c-task3">
+      <div class="c-task3__wrapper">
+        <h3 class="title">
+          3. Создать массив CSS-стилей (цвет, размер шрифта, выравнивание,
+          подчеркивание и т. д.). Каждый элемент массива – это объект, состоящий
+          из двух свойств: название стиля и значение стиля. Написать функцию,
+          которая принимает массив стилей и текст, и выводит этот текст с
+          помощью document.write() в тегах, добавив в открывающий тег атрибут
+          style со всеми стилями, перечисленными в массиве.
+        </h3>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
