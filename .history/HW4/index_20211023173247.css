@@ -40,21 +40,12 @@ button {
 button:active {
   transform: scale(0.9);
 }
-.c-input {
-  max-width: 35px;
-}
-.c-task2-form__wrapper {
-  display: flex;
-}
-.c-task2_first-fraction,
-.c-task2_second-fraction {
+form > .c-task2-form {
   display: flex;
   flex-direction: column;
-  padding-right: 30px;
 }
-
-#js-task2-btn {
-  max-width: 230px;
+.c-input {
+  max-width: 200px;
 }
 /* display: flex;
 flex-direction: column; */

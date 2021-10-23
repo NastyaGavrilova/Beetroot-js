@@ -50,9 +50,7 @@ button:active {
 .c-task2_second-fraction {
   display: flex;
   flex-direction: column;
-  padding-right: 30px;
 }
-
 #js-task2-btn {
   max-width: 230px;
 }
