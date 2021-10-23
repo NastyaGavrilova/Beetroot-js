@@ -113,8 +113,10 @@ function fracReductionFirst(obj1) {
   let d;
 
   for (var i = 2; i <= obj1.upNumber.value; i++) {
-    if (obj1.upNumber.value % i == 0 && obj1.downNumber.value % i == 0) {
+    if (obj1.upNumber.value % i === 0 && obj1.downNumber.value % i === 0) {
       (n = obj1.upNumber.value / i), (d = obj1.downNumber.value / i);
+    } else {
+      return (reduction.innerHTML = "Невозможно сократить дробь");
     }
   }
 
@@ -124,15 +126,17 @@ function fracReductionFirst(obj1) {
     } else {
       return (reduction.innerHTML = "Деление на 0 невозможно!");
     }
-  }
 }
 function fracReductionSeocnd(obj2) {
   let reduction1 = document.getElementById("js-task2-span6");
   let n1;
   let d1;
   for (var j = 2; j <= obj2.upNumber.value; j++) {
-    if (obj2.upNumber.value % j == 0 && obj2.downNumber.value % j == 0) {
+    if (obj2.upNumber.value % j === 0 && obj2.downNumber.value % j === 0) {
       (n1 = obj2.upNumber.value / j), (d1 = obj2.downNumber.value / j);
+    }
+    else {
+      return (reduction1.innerHTML = "Невозможно сократить дробь");
     }
   }
   if (obj2.upNumber.value != 0) {
@@ -141,7 +145,7 @@ function fracReductionSeocnd(obj2) {
     } else {
       return (reduction1.innerHTML = "Деление на 0 невозможно!");
     }
-  }
+  } 
 }
 let btn2 = document.getElementById("js-task2-btn");
 btn2.addEventListener("click", (et) => {
