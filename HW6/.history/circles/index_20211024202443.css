@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(20, 117, 85);
+}
+
+.c-task1__wrapper {
+  padding: 20px 50px;
+}
+
+.c-task1__title,
+.c-task1__paragraph,
+button {
+  margin-bottom: 10px;
+}
+
+.e-title {
+  color: rgb(20, 117, 85);
+}
+
+button {
+  border: none;
+  background-color: rgb(19, 168, 148);
+  color: rgb(54, 53, 53);
+  margin-bottom: 10px;
+  font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.9);
+}
+
+span {
+  font-size: 19px;
+  font-weight: 500;
+}

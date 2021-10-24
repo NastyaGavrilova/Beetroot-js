@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.c-task1__wrapper {
+  padding: 20px 50px;
+}
+
+.c-task1__title {
+  margin-bottom: 10px;
+}

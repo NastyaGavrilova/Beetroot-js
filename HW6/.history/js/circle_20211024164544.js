@@ -1,0 +1,3 @@
+class Circle {
+  constructor(radius)
+}
