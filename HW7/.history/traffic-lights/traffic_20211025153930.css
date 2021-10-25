@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(151, 205, 207);
+  font-family: "Oswald", sans-serif;
+}
+
+.c-header__wrapper {
+  padding: 20px 0;
+}
+
+.c-header__title {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(31, 95, 70);
+}
+
+h4 {
+  color: rgb(31, 95, 70);
+  font-size: 21px;
+}
+
+.c-task-traffic__title {
+  margin-bottom: 20px;
+}
+.c-task-traffic {
+  padding: 0 50px;
+}
+
+.traffic__lights {
+  margin: auto;
+  width: 60px;
+  height: 200px;
+  padding: 10px 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(39, 109, 94);
+  box-shadow: -1px 3px 16px 0px rgba(23, 57, 50, 0.62);
+  border-radius: 0.5rem;
+}
+.traffic__light {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid lightgrey;
+  background-color: rgb(71, 69, 69);
+}
+.traffic__off {
+  background-color: #555;
+}
+.traffic__red {
+  background-color: rgba(235, 50, 50, 0.925);
+}
+.traffic__green {
+  background-color: rgb(91, 179, 91);
+}
+.traffic__yellow {
+  background-color: rgb(231, 231, 83);
+}
+.traffic__btn {
+  border-radius: 0.5rem;
+  border: none;
+  color: rgb(71, 69, 69);
+  background-color: rgb(66, 179, 154);
+  cursor: pointer;
+}

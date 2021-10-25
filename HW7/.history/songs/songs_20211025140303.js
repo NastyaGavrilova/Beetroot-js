@@ -1,0 +1,51 @@
+class Songs {
+  constructor(params = {}) {
+    Object.assign(
+      this,
+      {
+        author: null,
+        song: null,
+      },
+      { ...params }
+    );
+  }
+}
+
+Songs.prototype.toString = function checkToString() {
+  return `${this.author} - ${this.song};`;
+};
+
+let playList = [
+  {
+    author: "LED ZEPPELIN",
+    song: "STAIRWAY TO HEAVEN",
+  },
+  {
+    author: "QUEEN",
+    song: "BOHEMIAN RHAPSODY",
+  },
+  {
+    author: "LYNYRD SKYNYRD",
+    song: "FREE BIRD",
+  },
+  {
+    author: "DEEP PURPLE",
+    song: "SMOKE ON THE WATER",
+  },
+  {
+    author: "JIMI HENDRIX",
+    song: "ALL ALONG THE WATCHTOWER",
+  },
+  {
+    author: "AC/DC",
+    song: "BACK IN BLACK",
+  },
+  {
+    author: "QUEEN",
+    song: "WE WILL ROCK YOU",
+  },
+  {
+    author: "METALLICA",
+    song: "ENTER SANDMAN",
+  },
+];

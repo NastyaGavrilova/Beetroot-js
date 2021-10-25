@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./modal.css" />
+    <title>Modal Window DOM</title>
+  </head>
+  <body>
+    <header class="c-header">
+      <div class="c-header__wrapper">
+        <h2>Модальное Окно DOM</h2>
+      </div>
+    </header>
+    <!-- Триггер/Открыть модальный -->
+    <div class="c-button">
+      <div class="c-button__wrapper">
+        <button id="js-btn">Открыть модальное окно.</button>
+      </div>
+    </div>
+
+    <!-- Модальный -->
+    <div id="js-modal-window" class="modal-window">
+      <!-- Модальное содержание -->
+      <div class="modal-content">
+        <p>
+          Модальное окно в графическом интерфейсе пользователя — окно, которое
+          блокирует работу пользователя с родительским приложением до тех пор,
+          пока пользователь это окно не закроет. Модальными преимущественно
+          реализованы диалоговые окна.
+        </p>
+
+        <button id="js-btn-close" class="close">Закрыть.</button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>

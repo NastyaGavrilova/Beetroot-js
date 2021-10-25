@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./modal.css" />
+    <title>Modal Window DOM</title>
+  </head>
+  <body>
+    <h3>
+      2. Создать HTML-страницу с кнопкой "Открыть" и модальным окном. На
+      модальном окне должен быть текст и кнопка "Закрыть". Изначально модальное
+      окно не отображается. При клике на кнопку "Открыть" появляется модальное
+      окно, на кнопку "Закрыть" – исчезает.
+    </h3>
+    <!-- Триггер/Открыть модальный -->
+    <button id="js-btn">Открыть модальное окно.</button>
+
+    <!-- Модальный -->
+    <div id="js-modal-window" class="modal-window">
+      <!-- Модальное содержание -->
+      <div class="modal-content">
+        <p>
+          Модальное окно в графическом интерфейсе пользователя — окно, которое
+          блокирует работу пользователя с родительским приложением до тех пор,
+          пока пользователь это окно не закроет. Модальными преимущественно
+          реализованы диалоговые окна.
+        </p>
+
+        <button id="js-btn-close">Закрыть.</button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>

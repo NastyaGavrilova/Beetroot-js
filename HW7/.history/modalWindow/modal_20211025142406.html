@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./modal.css" />
+    <title>Modal Window DOM</title>
+  </head>
+  <body>
+    <h1>
+      2. Создать HTML-страницу с кнопкой "Открыть" и модальным окном. На
+      модальном окне должен быть текст и кнопка "Закрыть". Изначально модальное
+      окно не отображается. При клике на кнопку "Открыть" появляется модальное
+      окно, на кнопку "Закрыть" – исчезает.
+    </h1>
+    <!-- Триггер/Открыть модальный -->
+    <button id="js-btn">Открыть модальный</button>
+
+    <!-- Модальный -->
+    <div id="js-modal-window" class="modal-window">
+      <!-- Модальное содержание -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Некоторый текст в модальном..</p>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>

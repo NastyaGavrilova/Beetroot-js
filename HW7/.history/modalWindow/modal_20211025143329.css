@@ -1,0 +1,49 @@
+/* Модальный (фон) */
+.modal-window {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed; /* Оставаться на месте */
+  z-index: 1; /* Сидеть на вершине */
+  left: 0;
+  top: 0;
+  width: 100%; /* Полная ширина */
+  height: 100%; /* Полная высота */
+  overflow: auto; /* Включите прокрутку, если это необходимо */
+  background-color: rgb(0, 0, 0); /* Цвет запасной вариант */
+  background-color: rgba(0, 0, 0, 0.4); /* Черный с непрозрачностью */
+}
+
+#js-btn,
+#js-btn-close {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(37, 177, 130);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Модальное содержание/коробка */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% сверху и по центру */
+  padding: 20px;
+  border: 4px solid rgb(37, 177, 130);
+  width: 80%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  color: rgb(12, 107, 76);
+  font-size: 24px;
+}
+
+/* Кнопка закрытия */
+.close {
+  color: rgb(53, 51, 51);
+  /* float: right; */
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
