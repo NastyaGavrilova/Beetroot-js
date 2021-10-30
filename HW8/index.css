@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+}
+.c-header__title {
+  margin: 20px auto;
+  text-align: center;
+  color: rgb(20, 117, 85);
+}
+
+.c-tasks__wrapper {
+  padding: 20px 50px;
+}
+
+.c-tasks__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.e-link {
+  padding: 5px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: rgb(19, 168, 148);
+  color: rgb(54, 53, 53);
+  font-weight: 500;
+}
+
+.e-link:active {
+  transform: scale(1.2);
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Normilize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="./index.css" />
+    <title>Game</title>
+  </head>
+  <body>
+    <div class="c-container">
+      <header class="c-container__header" id="js-container__header">
+        <nav class="c-header__navigation">
+          <ul class="c-navigation__ul" id="js-navigation__ul">
+            <li class="c-navigation__li disable">
+              <img class="e-navigation__icon" src="./assets/svg/tooltip.svg" />
+              <p class="e-navigation__title">INFORMATION</p>
+            </li>
+            <li class="c-navigation__li disable">
+              <img class="e-navigation__icon" src="./assets/svg/card.svg" />
+              <p class="e-navigation__title">RATINGS INFO</p>
+            </li>
+            <li class="c-navigation__li disable">
+              <img class="e-navigation__icon" src="./assets/svg/basket.svg" />
+              <p class="e-navigation__title">WHERE TO BUY</p>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="c-container tab">
+        <div class="c-container__content" id="js-container__content">
+          <div class="c-container__img">
+            <img src="img/img.png" alt="FarCry 4" />
+          </div>
+          <div class="c-container__describe">
+            <div class="c-container__title" id="js-container__title">
+              <h2>FarCry 4</h2>
+            </div>
+            <div class="c-container__subtitle" id="js-container__subtitle">
+              <h3>First Released Nov 17, 2014</h3>
+            </div>
+            <div class="c-container__paragraph" id="js-container__paragraph">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                incidunt adipisci, laudantium exercitationem voluptas molestias
+                nisi dolores voluptatem dolorum tempore?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="c-container__info-buy">
+        <div class="c-container__stars">
+          <div class="e-star"></div>
+          <div class="e-star"></div>
+          <div class="e-star"></div>
+          <div class="e-star"></div>
+          <div class="e-star"></div>
+        </div>
+        <div class="c-container__price">
+          <div class="c-container__priceoff">20% off</div>
+          <div class="container__total">$59.96</div>
+        </div>
+        <div class="c-container__button">
+          <input
+            type="submit"
+            value="buy it now"
+            class="container__buyitnow"
+            id="container__buyitnow"
+          />
+        </div>
+      </div>
+      <div class="c-rating tab">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+          voluptatem dolore neque minima eligendi sit. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Enim voluptatem dolore neque minima
+          eligendi sit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Enim voluptatem dolore neque minima eligendi sit.
+        </p>
+      </div>
+      <div class="c-wheretobuy tab">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          similique laborum, minima tempora consequuntur cum quis, deleniti
+          quasi eum incidunt magni, quo facere. Ipsam consectetur aliquam sequi
+          consequuntur, nisi at, nostrum commodi dolorem consequatur dolores
+          qui? Nisi, saepe ea? Perspiciatis voluptate magnam facilis repudiandae
+          illum totam sed laudantium vitae porro nemo molestiae, possimus
+          similique eum aut recusandae amet! Explicabo, eaque? Quasi, maxime
+          quia doloribus accusamus pariatur asperiores dolores vitae debitis.
+          Natus laboriosam deserunt perferendis ullam facilis ipsum minima ad
+          quisquam error dolore quo, sequi possimus mollitia repellat, nulla
+          omnis sunt dignissimos. Tenetur illum totam molestias veritatis!
+          Facere aperiam adipisci quasi.
+        </p>
+      </div>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
