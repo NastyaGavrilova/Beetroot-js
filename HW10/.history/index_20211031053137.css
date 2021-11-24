@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.c-header__wrapper {
+  margin-top: 65px;
+}
+.c-header__title {
+  text-align: center;
+  padding: 0 345px;
+}
+.e-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+.e-title {
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}

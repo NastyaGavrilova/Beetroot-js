@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.c-header__wrapper {
+  margin-top: 65px;
+}
+.c-header__title {
+  text-align: center;
+  padding: 0 445px;
+}

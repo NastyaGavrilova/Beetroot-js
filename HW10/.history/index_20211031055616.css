@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.c-header__wrapper {
+  margin: 65px 0 100px 0;
+}
+.c-header__title {
+  max-width: 1030px;
+  margin: 0 auto;
+  text-align: center;
+}
+.e-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.e-title {
+  font-size: 86px;
+  font-weight: 600;
+  line-height: 85px;
+}
+
+img {
+  max-width: 440px;
+  width: 100%;
+}
+
+.swiper {
+  padding-left: 150px;
+  height: 400px;
+  width: 100%;
+}
